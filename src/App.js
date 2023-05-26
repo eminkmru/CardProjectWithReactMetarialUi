@@ -43,7 +43,32 @@ function App() {
             />
           </Grid>
           <Grid item xs={12} sm={6} md={3}>
-            Can
+            <Course
+              image={Angular}
+              title="Angular"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, totam omnis mollitia dolore molestiae, repellendus at aliquid similique dolorum sed facere quibusdam odit. Ut omnis officia unde laudantium, aliquid ad!"
+            />
+          </Grid>
+          <Grid item xs={12} sm={6} md={3}>
+            <Course
+              image={Bootstrap}
+              title="Bootstrap"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, totam omnis mollitia dolore molestiae, repellendus at aliquid similique dolorum sed facere quibusdam odit. Ut omnis officia unde laudantium, aliquid ad!"
+            />
+          </Grid>
+          <Grid item xs={12} sm={6} md={3}>
+            <Course
+              image={Csharp}
+              title="Csharp"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, totam omnis mollitia dolore molestiae, repellendus at aliquid similique dolorum sed facere quibusdam odit. Ut omnis officia unde laudantium, aliquid ad!"
+            />
+          </Grid>
+          <Grid item xs={12} sm={6} md={3}>
+            <Course
+              image={KompleWeb}
+              title="KompleWeb"
+              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, totam omnis mollitia dolore molestiae, repellendus at aliquid similique dolorum sed facere quibusdam odit. Ut omnis officia unde laudantium, aliquid ad!"
+            />
           </Grid>
         </Grid>
       </Container>
